@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: exemplo-elasticsearch
+  elasticsearch:
+    uris: localhost:9200
+    connection-timeout: 1s
+    socket-timeout: 1m
+server:
+  port: 8080
